@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this assignment was to analyze Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.After choosing to assess the apparel dataset, we completed the following technical deliverables:
+The purpose of this assignment was to analyze Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. We chose to assess the Amazon Apparel dataset, and completed the following technical deliverables:
 
 1) Use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. 
 
@@ -35,5 +35,5 @@ What percentage of Vine reviews were 5 stars? What percentage of non-Vine review
 ![percent_unpaid_5star](https://github.com/MichaelaAnastasiaAustin/Amazon_Vine_Analysis/blob/main/images/percentage_unpaid_5star.png)
 
 ## Summary
-All in all, there does not appear to be positivity bias for reviews in the Vine program. For the apparel dataset, less than half of Vine reviews were five stars -- 45%. In comparison, 52% of non-Vine reviews were five stars. To further assess the potential of any positivity bias for reviews in the Vine program, I would recommend pulling in the "review_headline" and/or "review_body" columns from the original dataset table into our vine_table. Then, we would be able to assess the length of reviews or whether certain positive words were used more frequently in Vine program reviews.
+All in all, there does not appear to be positivity bias for reviews in the Vine program. For the Amazon Apparel dataset, less than half of Vine reviews were five stars -- 45%. In comparison, 52% of non-Vine reviews were five stars. To further assess the potential of any positivity bias for reviews in the Vine program, I would recommend pulling in the "review_headline" and/or "review_body" columns from the original dataset table into our vine_table. Then, we would be able to assess the length of reviews or whether certain positive words were used more frequently in Vine program reviews.
 
